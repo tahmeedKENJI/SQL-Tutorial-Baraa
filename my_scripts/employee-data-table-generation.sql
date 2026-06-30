@@ -14,6 +14,6 @@ GO
 
 INSERT INTO employee (id, full_name, email, birth_date)
 VALUES
-	(1, 'Tahmeed', 'tahmeedreza@gmail.com', '2001-08-04'),
-	(2, 'Sahira', 'sahirarokeya@gmail.com', '2001-10-25'),
-	(3, 'Fardin', 'fardinshams@gmail.com', '2007-09-20')
+	(1, '     Tahmeed', 'tahmeedreza@gmail.com', '2001-08-04'),
+	(2, 'Sahira ', 'sahirarokeya@gmail.com', '2001-10-25'),
+	(3, ' Fardin ', 'fardinshams@gmail.com', '2007-09-20')
