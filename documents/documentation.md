@@ -1,0 +1,3 @@
+# Data Engineering with Python:
+
+Python is the primary language for data engineering in 2026 — used for building ETL/ELT pipelines, orchestrating workflows, processing data at scale, and building the data infrastructure that AI systems consume. Core libraries: Pandas/Polars (transformation), PySpark (distributed processing), SQLAlchemy (databases), Airflow/Prefect/Dagster (orchestration), dbt (transformation layer), dlt (ingestion), and Great Expectations (data quality). Python is not an ETL tool itself — it's the language you use to write the logic that runs inside these tools and frameworks. ([source](https://iabac.org/blog/python-for-data-engineering))
