@@ -3,6 +3,10 @@
 Layer:      Silver
 Target:     Bronze
 
+Purpose:
+Test Out The Transformations Needed To Enhance Data Quality
+Before Submitting Them To The Actual Procedure
+
 */
 
 USE medallion_dwh;

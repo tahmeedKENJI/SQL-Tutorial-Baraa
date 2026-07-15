@@ -1,3 +1,18 @@
+/*
+
+Purpose:
+Create a Stored Procedure to Transform and Load Data into The Silver Layer
+
+Methods:
+-	Truncate Full Table and Load
+-	Apply Transformation to The Columns
+-	Use Error Handling for Debugging Purposes
+
+Data Modeling:
+None
+
+*/
+
 USE medallion_dwh;
 GO
 

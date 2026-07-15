@@ -3,6 +3,8 @@
 Layer:      Silver
 Target:     Silver
 
+Purpose: Verify Tables In The Silver Layer
+
 */
 
 USE medallion_dwh;
