@@ -12,6 +12,8 @@ Table Names:
 Notes:
 -   All dates are being loaded as NVARCHAR(20)
 -   Please remind yourself this when working in the "silver" layer
+-   (UPDATE) Restored the date type. Source data got altered magically.
+-   (UPDATE) !!ATTENTION!! 0 in date column in sales_details.csv. ONLY NVARCHAR(20) there.
 
 !!WARNING!!
 ALL TABLES WILL BE DELETED BEFORE RECREATING THEM
@@ -50,7 +52,7 @@ CREATE TABLE bronze.crm_cust_info (
     cst_lastname       NVARCHAR (50),
     cst_marital_status NVARCHAR (10),
     cst_gndr           NVARCHAR (10),
-    cst_create_date    NVARCHAR (20)         
+    cst_create_date    DATE         
 );
 
 CREATE TABLE bronze.crm_prd_info (
@@ -60,8 +62,8 @@ CREATE TABLE bronze.crm_prd_info (
     prd_nm       NVARCHAR (50),
     prd_cost     INT          ,
     prd_line     NVARCHAR (10),
-    prd_start_dt NVARCHAR (20),
-    prd_end_dt   NVARCHAR (20)
+    prd_start_dt DATE,
+    prd_end_dt   DATE
 );
 
 CREATE TABLE bronze.crm_sales_details (
@@ -80,7 +82,7 @@ CREATE TABLE bronze.crm_sales_details (
 CREATE TABLE bronze.erp_cust_az12 (
     -- create erp_cust_az12 table
     cid   NVARCHAR (50),
-    bdate NVARCHAR (20),
+    bdate DATE,
     gen   NVARCHAR (10)
 );
 
